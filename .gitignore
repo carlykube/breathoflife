@@ -2,3 +2,7 @@
 /vendor
 production-config.php
 local-config.php
+
+// ignore content of themes dir
+!/wp-content/themes
+/wp-content/themes/*
