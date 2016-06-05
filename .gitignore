@@ -2,7 +2,8 @@
 /vendor
 production-config.php
 local-config.php
+/public/wp-content/plugins
 
 // ignore content of themes dir
-!/wp-content/themes
-/wp-content/themes/*
+!/public/wp-content/themes
+public/wp-content/themes/*
