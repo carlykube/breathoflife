@@ -7,3 +7,5 @@ local-config.php
 // ignore content of themes dir
 !/public/wp-content/themes
 public/wp-content/themes/*
+
+!/public/wp-content/themes/twentysixteen-child

@@ -1,0 +1,128 @@
+/*
+ Theme Name:   Twenty Sixteen Child
+ Theme URI:    
+ Description:  Custom Twenty Sixteen theme for Breath of Life
+ Author:       Carly Kubacak
+ Author URI:   http://carlykubacak.com/
+ Template:     twentysixteen
+ Version:      0.0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout
+ Text Domain:  twentysixteen-child
+*/
+
+body {
+    /*background: #564796;
+    background-image: url(/public/static/triangular.png);*/
+}
+
+a {
+    color: #00b7c9;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: #564796;
+}
+
+button:hover,
+button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background: #00b7c9;
+}
+
+.dropdown-toggle:hover,
+.dropdown-toggle:focus {
+    background-color: transparent;
+    color: #564796;
+}
+
+.social-navigation a:hover:before,
+.social-navigation a:focus:before {
+    color: #564796;
+}
+
+
+.post-navigation a:hover .post-title,
+.post-navigation a:focus .post-title {
+    color: #00b7c9;
+}
+
+
+.pagination .prev:hover,
+.pagination .prev:focus,
+.pagination .next:hover,
+.pagination .next:focus {
+    background-color: #564796;
+    color: #fff;
+}
+
+.tagcloud a:hover,
+.tagcloud a:focus {
+    border-color: #564796;
+    color: #564796s;
+    outline: 0;
+}
+
+
+.site-branding .site-title a:hover,
+.site-branding .site-title a:focus {
+    color: #564796;
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus {
+    background-color: transparent;
+    border-color: #00b7c9;
+    color: #00b7c9;
+}
+
+.entry-title a:hover,
+.entry-title a:focus {
+    color: #00b7c9;
+}
+
+.page-links a:hover,
+.page-links a:focus {
+    background-color: #564796;
+    border-color: transparent;
+    color: #fff;
+}
+
+.comment-metadata a:hover,
+.comment-metadata a:focus,
+.pingback .comment-edit-link:hover,
+.pingback .comment-edit-link:focus {
+    color: #564796;
+}
+
+.comment-reply-link:hover,
+.comment-reply-link:focus {
+    border-color: currentColor;
+    color: #564796;
+    outline: 0;
+}
+
+.site-info a:hover,
+.site-info a:focus {
+    color: #00b7c9;
+}
+
+.comment-reply-link {
+    color: #00b7c9;
+}
+
+@media screen and (min-width: 56.875em) {
+    .main-navigation li:hover > a,
+    .main-navigation li.focus > a {
+        color: #564796;
+    }
+}
