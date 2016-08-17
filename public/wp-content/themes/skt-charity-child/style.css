@@ -12,7 +12,7 @@
 */
 
 .heart {
-    border-right-color: #6e648c;
+    border-right: none;
 }
 
 .toggle a {
@@ -27,4 +27,8 @@
 #pagearea {
     background: url(images/child-817368.png) no-repeat center top;
     background-size: 100%;
+}
+
+.slide_info a.ReadMore:hover {
+    background-color: #3B3159;
 }
