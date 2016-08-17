@@ -1,0 +1,30 @@
+/*
+ Theme Name:   SKT Charity Child
+ Theme URI:    
+ Description:  SKT Charity theme for Breath of Life
+ Author:       Carly Kubacak
+ Author URI:   
+ Template:     skt-charity
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         one-column,two-columns,right-sidebar,responsive-layout,custom-background,custom-header,custom-menu,featured-images,sticky-post,threaded-comments
+*/
+
+.heart {
+    border-right-color: #6e648c;
+}
+
+.toggle a {
+    background-color: #6e648c;
+}
+
+.bol-header {
+    background-color: 'red';
+    font-size: 30px;
+}
+
+#pagearea {
+    background: url(images/child-817368.png) no-repeat center top;
+    background-size: 100%;
+}

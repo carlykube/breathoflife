@@ -3,9 +3,12 @@
 production-config.php
 local-config.php
 /public/wp-content/plugins
+/public/wp-content/uploads
 
 // ignore content of themes dir
 !/public/wp-content/themes
 public/wp-content/themes/*
 
-!/public/wp-content/themes/twentysixteen-child
+!/public/wp-content/themes/skt-charity-child
+
+.DS_Store
