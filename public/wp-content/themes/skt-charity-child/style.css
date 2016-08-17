@@ -48,3 +48,7 @@ h1 {
 div.copyright-wrapper .design-by {
     display: none;
 }
+
+form.search-form {
+    margin-bottom: 10px;
+}
