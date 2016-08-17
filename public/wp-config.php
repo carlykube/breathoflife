@@ -16,10 +16,6 @@ if ( file_exists( dirname( __FILE__ ) . '/../production-config.php' ) ) {
 // Custom Content Directory
 // ========================
 define( 'WP_CONTENT_DIR', dirname( __FILE__ ) . '/wp-content' );
-define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/public/wp-content' );
-
-define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] . '/public/wp');
-define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] . '/public');
 
 // ================================================
 // Databse Settings
