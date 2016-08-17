@@ -12,3 +12,5 @@ public/wp-content/themes/*
 !/public/wp-content/themes/skt-charity-child
 
 .DS_Store
+bol.sublime-project
+bol.sublime-workspace
