@@ -4,6 +4,10 @@ define( 'DB_USER', 'exampleuser' );
 define( 'DB_PASSWORD', 'examplepassword' );
 define( 'DB_HOST', 'localhost' );
 
+define('WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/public/wp-content' );
+define('WP_SITEURL', 'http://' . $_SERVER['HTTP_HOST'] . '/public/wp');
+define('WP_HOME', 'http://' . $_SERVER['HTTP_HOST'] . '/public');
+
 ini_set( 'display_errors', E_ALL );
 define( 'WP_DEBUG_DISPLAY', true );
 define( 'WP_DEBUG', true );
