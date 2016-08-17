@@ -32,3 +32,19 @@
 .slide_info a.ReadMore:hover {
     background-color: #3B3159;
 }
+
+div.slider-wrapper .nivo-controlNav a {
+    background-color: gray;
+}
+
+div.slider-wrapper .nivo-controlNav a.active {
+    background-color: #6e648c;
+}
+
+h1 {
+    color: #1fb7c8;
+}
+
+div.copyright-wrapper .design-by {
+    display: none;
+}
