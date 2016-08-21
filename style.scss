@@ -183,7 +183,7 @@ body.blog .sitenav ul li:hover > ul {
         color: #e5e5e5;
     }
 
-    .home .header, .page .header {
+    body .header, body .header {
         background-color: $neutral-light !important;
 
         .logo a, .logo p {
