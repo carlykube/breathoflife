@@ -115,7 +115,7 @@ $content = apply_filters('the_content', substr(strip_tags($post->post_content), 
 <div class="slide_info">
 <h2><?php echo $title; ?></h2>
 <?php echo $content; ?>
-<a class="ReadMore" href="<?php the_permalink(); ?>"><?php esc_attr_e('Donate Now!', 'skt-charity');?></a>
+<a class="ReadMore" href="<?php the_permalink(); ?>"><?php esc_attr_e('Read more!', 'skt-charity');?></a>
 </div>
 </div>      
 <?php $i++; } ?>       

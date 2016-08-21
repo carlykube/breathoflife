@@ -1,0 +1,193 @@
+/*
+ Theme Name:   SKT Charity Child
+ Theme URI:    
+ Description:  SKT Charity theme for Breath of Life
+ Author:       Carly Kubacak
+ Author URI:   
+ Template:     skt-charity
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         one-column,two-columns,right-sidebar,responsive-layout,custom-background,custom-header,custom-menu,featured-images,sticky-post,threaded-comments
+*/
+
+$main: #6E638D;
+$accent1: #64BCC6;
+$accent2: #BDC99B;
+$neutral-light: #EFEFEF;
+$neutral-dark: #696A6A;
+$black: #000;
+$white: #fff;
+
+$screen-small: 767px;
+
+.heart {
+    border-right: none;
+}
+
+.toggle a {
+    background-color: $main;
+}
+
+#pagearea {
+    background: url(images/child-817368.png) no-repeat center top;
+    background-size: cover;
+    
+    @media (max-width: $screen-small) {
+        background-image: url(images/child-vertical.png);
+    }
+}
+
+.slide_info a.ReadMore:hover {
+    background-color: darken(#6E638D, 10%);
+}
+
+div.slider-wrapper .nivo-controlNav a {
+    background-color: $neutral-dark;
+}
+
+div.slider-wrapper .nivo-controlNav a.active {
+    background-color: $main;
+}
+
+h1 {
+    color: $accent1;
+}
+
+div.copyright-wrapper .design-by {
+    display: none;
+}
+
+form.search-form {
+    margin-bottom: 10px;
+}
+
+aside.widget {
+    padding-top: 10px;
+    background-color: $neutral-light;
+}
+
+div.recent-post img {
+    border: $neutral-dark solid 2px;
+}
+
+.cols-3 {
+    border-right: 1px solid $main;
+}
+
+.social-icons a {
+    background-color: $neutral-dark;
+
+    &:hover {
+        background-color: $accent1 !important;
+    }
+}
+
+#footer-wrapper {
+    color: black;
+    background-color: $neutral-light;
+}
+
+.phone-no a {
+    color: $accent1;
+}
+
+.cols-3 h5 {
+    color: $main;
+}
+
+.copyright-wrapper {
+    color: $white;
+}
+
+/************ home navbar styles **************/
+body.blog .sitenav ul li:hover > ul {
+    background-color: $main;
+}
+
+.sitenav ul li ul li {
+    border-bottom-color: $neutral-light;
+    border-bottom-width: 1px;
+    top: 0;
+}
+
+.sitenav ul li a:hover {
+    color: $main;
+}
+
+.sitenav ul.sub-menu li {
+    &:hover {
+        background-color: darken($main, 10%);
+        -webkit-transition: background 0.4s linear;
+        -moz-transition: background 0.4s linear;
+        -ms-transition: background 0.4s linear;
+        -o-transition: background 0.4s linear;
+        transition: background 0.4s linear;
+    }
+
+    a:hover {
+        color: $white;
+    }
+}
+
+/************ inner navbar styles **************/
+.innerheader {
+    background-color: $neutral-light;
+
+    .logo a, .logo p {
+        color: $main;
+    }
+}
+
+.innerheader div.menu-main-menu-container ul li a {
+    color: $main;
+}
+
+.innerheader .sitenav ul li.current_page_item a {
+    color: $accent1;
+
+    &:hover {
+        color: white;
+    }
+}
+
+.innerheader .sitenav ul li:hover > ul {
+    background-color: $neutral-light;
+}
+
+.innerheader .sitenav ul li ul li {
+    border-bottom-color: none;
+}
+
+.innerheader .sitenav ul.sub-menu li {
+    &:hover {
+        background-color: $neutral-dark;
+        -webkit-transition: background 0.4s linear;
+        -moz-transition: background 0.4s linear;
+        -ms-transition: background 0.4s linear;
+        -o-transition: background 0.4s linear;
+        transition: background 0.4s linear;
+    }
+}
+
+.donatebtn {
+    background-color: $neutral-dark;
+}
+
+.widget-column-3 {
+    border-right: none;
+}
+
+@media screen and (max-width: 767px) {
+    .toggle a {
+        color: #e5e5e5;
+    }
+
+    .home .header, .page .header {
+        background-color: $neutral-light !important;
+
+        .logo a, .logo p {
+            color: $accent1;
+        }
+    }
+}
