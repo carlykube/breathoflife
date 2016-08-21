@@ -33,6 +33,10 @@
     background-color: #3B3159;
 }
 
+.sitenav ul li ul li {
+    border-bottom-color: #6e648c;
+}
+
 div.slider-wrapper .nivo-controlNav a {
     background-color: gray;
 }
