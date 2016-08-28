@@ -5,7 +5,6 @@ local-config.php
 /public/wp-content/plugins
 /public/wp-content/uploads
 .sass-cache
-composer.lock
 
 // ignore content of themes dir
 !/public/wp-content/themes
