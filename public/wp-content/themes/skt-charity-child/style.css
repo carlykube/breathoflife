@@ -154,5 +154,8 @@ body.blog .sitenav ul li:hover > ul {
     margin-left: auto;
     margin-right: auto;
     display: block; } }
+/************ footer **************/
+.recent-post img {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */
