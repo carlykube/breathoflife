@@ -72,6 +72,9 @@ div.recent-post img {
 .copyright-wrapper {
   color: #fff; }
 
+ul {
+  margin-left: 35px; }
+
 /************ home navbar styles **************/
 body.blog .sitenav ul li:hover > ul {
   background-color: #6E638D; }
