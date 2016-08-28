@@ -32,6 +32,9 @@ div.slider-wrapper .nivo-controlNav a {
 div.slider-wrapper .nivo-controlNav a.active {
   background-color: #6E638D; }
 
+div#slider.nivoSlider {
+  min-height: 0; }
+
 h1 {
   color: #64BCC6; }
 

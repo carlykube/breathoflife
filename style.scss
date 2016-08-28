@@ -50,6 +50,10 @@ div.slider-wrapper .nivo-controlNav a.active {
     background-color: $main;
 }
 
+div#slider.nivoSlider {
+    min-height: 0;
+}
+
 h1 {
     color: $accent1;
 }
