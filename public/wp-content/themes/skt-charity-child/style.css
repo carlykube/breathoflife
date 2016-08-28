@@ -133,5 +133,23 @@ body.blog .sitenav ul li:hover > ul {
     background-color: #EFEFEF !important; }
     body .header .logo a, body .header .logo p, body .header .logo a, body .header .logo p {
       color: #64BCC6; } }
+/************ static page **************/
+.page_content .header-image {
+  margin-bottom: 20px; }
+
+.adoption-slider-image {
+  width: 30%;
+  margin: 4px;
+  border: solid 4px #6E638D;
+  display: inline-block; }
+  .adoption-slider-image:nth-child(even) {
+    border-color: #64BCC6; }
+
+@media screen and (max-width: 767px) {
+  .adoption-slider-image {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; } }
 
 /*# sourceMappingURL=style.css.map */
