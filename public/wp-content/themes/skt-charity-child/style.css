@@ -72,9 +72,15 @@ div.recent-post img {
 .copyright-wrapper {
   color: #fff; }
 
-ul {
+ul.indented {
   margin-left: 35px; }
 
+.phone-no a:hover {
+  color: #696A6A; }
+
+@media screen and (max-width: 767px) {
+  .sitenav ul li {
+    line-height: 40px; } }
 /************ home navbar styles **************/
 body.blog .sitenav ul li:hover > ul {
   background-color: #6E638D; }

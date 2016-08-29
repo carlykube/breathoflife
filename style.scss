@@ -104,8 +104,18 @@ div.recent-post img {
     color: $white;
 }
 
-ul {
+ul.indented {
     margin-left: 35px;
+}
+
+.phone-no a:hover {
+    color: $neutral-dark;
+}
+
+@media screen and (max-width: 767px) {
+    .sitenav ul li {
+        line-height: 40px;
+    }
 }
 
 /************ home navbar styles **************/
