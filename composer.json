@@ -8,7 +8,7 @@
     "require": {
         "php": ">=5.4",
         "composer/installers": "1.*",
-        "johnpbloch/wordpress": "4.7.*",
+        "johnpbloch/wordpress": "4.6.*",
         "wpackagist-theme/skt-charity": "1.5",
         "wpackagist-plugin/contact-form-7": "4.5",
         "wpackagist-plugin/paypal-donation-button": "1.2.3"
