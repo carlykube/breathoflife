@@ -43,9 +43,9 @@
                    <?php } ?>
                    
                    <?php if ( get_theme_mod('volunteer_link') != "") { ?> 
-                     <a class="user" href="<?php echo esc_url(get_theme_mod('volunteer_link','#')); ?>"><?php esc_attr_e('Become a Volunteer','skt-charity'); ?></a>
+                     <a class="user" href="<?php echo esc_url(get_theme_mod('volunteer_link','#')); ?>"><?php esc_attr_e('Volunteer','skt-charity'); ?></a>
                     <?php } else { ?>
-                     <a class="user" href="<?php echo esc_url('#');?>"><?php esc_attr_e('Become a Volunteer','skt-charity'); ?></a>
+                     <a class="user" href="<?php echo esc_url('#');?>"><?php esc_attr_e('Volunteer','skt-charity'); ?></a>
                    <?php } ?>
                  </div> 
                 <?php endif; ?>
